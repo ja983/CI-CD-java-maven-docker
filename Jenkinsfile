@@ -1,7 +1,7 @@
 node {
     // reference to maven
     // ** NOTE: This 'maven-latest' Maven tool must be configured in the Jenkins Global Configuration.   
-    def mvnHome = tool 'maven-latest'
+    def mvnHome = tool '3.11.0'
 
     // holds reference to docker image
     def dockerImage
